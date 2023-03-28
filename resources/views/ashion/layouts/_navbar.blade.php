@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-primary ">
     <div class="container-fluid">
-        <div class="" style="width: 100%; display: flex;">
+        <div class="collapse navbar-collapse" style="width: 100%; display: flex;">
             <div class="col-xl-3 col-lg-2">
                 <div class="header__logo">
                     <a class="navbar-brand" href="{{ url('/') }}" style="padding: 10px;">
@@ -21,13 +21,13 @@
             </div>
             <div class="col-xl-6 col-lg-7 text-center">
                 <nav class="header__menu">
-                    <ul>
-                        <li class="active"><a href="/ashion">Início</a></li>
-                        <li><a href="#">Skin Care</a></li>
-                        <li><a href="#">Makeup</a></li>
-                        <li><a href="#">Cabelo</a></li>
-                        <li><a href="#">sobre Nós</a></li>
-                        <li><a href="#">Contato</a></li>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active"><a href="/ashion">Início</a></li>
+                        <li class="nav-item"><a href="#">Skin Care</a></li>
+                        <li class="nav-item"><a href="#">Makeup</a></li>
+                        <li class="nav-item"><a href="#">Cabelo</a></li>
+                        <li class="nav-item"><a href="#">sobre Nós</a></li>
+                        <li class="nav-item"><a href="#">Contato</a></li>
                     </ul>
                 </nav>
             </div>

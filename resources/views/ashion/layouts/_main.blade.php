@@ -32,7 +32,7 @@
 </head>
 <body>
 <div id="app">
-    @include('ashion.layouts._navbar')
+    @include('ashion.layouts._navbar1')
     <main class="">
         @include('ashion.categories')
         @yield('content')

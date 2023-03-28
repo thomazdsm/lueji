@@ -3,6 +3,7 @@
     height: 60vh;
     width: 100%;
 }
+
 .nav-radius {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -10,6 +11,18 @@
 
 .shadow-primary {
     box-shadow: 0 0.5rem 1rem rgba(181, 103, 77, 0.15) !important;
+}
+
+.site-btn {
+    font-size: 14px;
+    color: #ffffff;
+    background: #ca1515;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 50px;
 }
 /*---------------------
   Categories

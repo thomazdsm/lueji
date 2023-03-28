@@ -11,9 +11,9 @@
                     <div class="footer__payment">
                         <a href="#"><img src="{{ asset('img/payment/payment-1.png') }}" alt=""></a>
                         <a href="#"><img src="{{ asset('img/payment/payment-2.png') }}" alt=""></a>
-                        <a href="#"><img src="{{ asset('img/payment/payment-3.png') }}" alt=""></a>
+{{--                        <a href="#"><img src="{{ asset('img/payment/payment-3.png') }}" alt=""></a>--}}
                         <a href="#"><img src="{{ asset('img/payment/payment-4.png') }}" alt=""></a>
-                        <a href="#"><img src="{{ asset('img/payment/payment-5.png') }}" alt=""></a>
+{{--                        <a href="#"><img src="{{ asset('img/payment/payment-5.png') }}" alt=""></a>--}}
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
             <div class="col-lg-12">
 
                 <div class="footer__copyright__text">
-                    <p>Copyright © <script>document.write(new Date().getFullYear());</script>2023 All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    <p>Copyright © <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
                 </div>
 
             </div>
